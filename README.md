@@ -1,5 +1,4 @@
 # Adopta-Amor 
-**Proyecto de app para adopcion de mascotas | Backend con Node.js**
 **Adopta-Amor** será una API RESTful construida con Node.js, Express y MongoDB, pensada para gestionar la adopción responsable de mascotas. Este backend permitirá manejar usuarios, mascotas, procesos de adopción y generación de datos simulados para pruebas y desarrollo.
 
 ## 📌 Funcionalidades principales
