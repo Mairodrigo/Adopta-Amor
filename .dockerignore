@@ -1,0 +1,17 @@
+# Evitar copiar dependencias innecesarias
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+
+# Config y secretos
+.env
+
+# Directorios opcionales
+.git
+test
+coverage
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
