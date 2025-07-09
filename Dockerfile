@@ -1,20 +1,23 @@
-# Imagen base
+# Imagen base oficial de Node.js
 FROM node:18
 
-# Directorio de trabajo dentro del contenedor
+# Directorio de trabajo en el contenedor
 WORKDIR /app
 
-# Copiar archivos necesarios
+# Copiar solo package.json y package-lock.json para aprovechar la cache de Docker
 COPY package*.json ./
 
 # Instalar dependencias
 RUN npm install
 
-# Copiar el resto del código
+# Copiar el resto del código del proyecto
 COPY . .
 
-# Exponer el puerto que usa tu app
+# Exponer el puerto de tu app
 EXPOSE 8080
 
-# Comando de inicio
+# Variable de entorno por defecto (opcional)
+ENV NODE_ENV=production
+
+# Comando para iniciar la app
 CMD ["npm", "start"]
