@@ -83,8 +83,7 @@ docker run -p 8080:8080 adopta-amor
 ```
 
 ### 📦 Imagen en DockerHub
-🔗 https://hub.docker.com/r/
-
+🔗 https://hub.docker.com/repository/docker/mairodrigo/adopta-amor/general
 ---
 
 ## Instalación local

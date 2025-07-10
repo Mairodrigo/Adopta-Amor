@@ -4,9 +4,6 @@ npm-debug.log
 Dockerfile
 .dockerignore
 
-# Config y secretos
-.env
-
 # Directorios opcionales
 .git
 test
